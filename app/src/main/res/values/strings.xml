@@ -7,4 +7,5 @@
     <string name="second_exemple_question">Avez-vous sorti votre animal de compagnie hier ?</string>
     <string name="third_exemple_question">Avez-vous passé une bonne journée aujourd\'hui ?</string>
     <string name="other_exemple_question">Une autre question à suggérer ?</string>
+    <string name="next_step">Continuer</string>
 </resources>

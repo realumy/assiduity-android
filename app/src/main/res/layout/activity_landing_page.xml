@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:gravity="center"
               android:orientation="vertical">
 
     <TextView
@@ -11,6 +12,10 @@
         android:layout_gravity="center"
         android:text="@string/title_landing_page"
         android:textSize="18sp"/>
+    
+    <android.support.v4.widget.Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
 
     <Button
         android:id="@+id/first_choice"
@@ -47,5 +52,11 @@
         android:layout_gravity="center"
         android:text="@string/other_exemple_question"
         android:textSize="14sp"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/next_step"/>
 
 </LinearLayout>
