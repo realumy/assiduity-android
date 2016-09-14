@@ -8,4 +8,7 @@
     <string name="third_exemple_question">Avez-vous passé une bonne journée aujourd\'hui ?</string>
     <string name="other_exemple_question">Une autre question à suggérer ?</string>
     <string name="next_step">Continuer</string>
+
+    <!-- Recurrence page !-->
+    <string name="congrat_image_description">Félicitations</string>
 </resources>

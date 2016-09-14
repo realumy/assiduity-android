@@ -12,7 +12,7 @@
         android:layout_gravity="center"
         android:text="@string/title_landing_page"
         android:textSize="18sp"/>
-    
+
     <android.support.v4.widget.Space
         android:layout_width="wrap_content"
         android:layout_height="20dp"/>
@@ -44,16 +44,20 @@
         android:text="@string/third_exemple_question"
         android:textSize="14sp"/>
 
-    <Button
+    <EditText
         android:id="@+id/other_choice"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/other_exemple_question"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:hint="@string/other_exemple_question"
+        android:inputType="text"
         android:textSize="14sp"/>
-    
+
     <Button
+        android:id="@+id/next_step_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
