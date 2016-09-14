@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button_min_width">56dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+    <dimen name="space">20dp</dimen>
+    <dimen name="txt_small">16sp</dimen>
+    <dimen name="txt_normal">18sp</dimen>
+    <dimen name="txt_large">20sp</dimen>
+</resources>
