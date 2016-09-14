@@ -11,11 +11,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/title_landing_page"
-        android:textSize="18sp"/>
+        android:textSize="@dimen/txt_normal"/>
 
     <android.support.v4.widget.Space
         android:layout_width="wrap_content"
-        android:layout_height="20dp"/>
+        android:layout_height="@dimen/space"/>
 
     <Button
         android:id="@+id/first_choice"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/first_exemple_question"
-        android:textSize="14sp"/>
+        android:textSize="@dimen/txt_small"/>
 
     <Button
         android:id="@+id/second_choice"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/second_exemple_question"
-        android:textSize="14sp"/>
+        android:textSize="@dimen/txt_small"/>
 
     <Button
         android:id="@+id/third_choice"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/third_exemple_question"
-        android:textSize="14sp"/>
+        android:textSize="@dimen/txt_small"/>
 
     <EditText
         android:id="@+id/other_choice"
@@ -54,7 +54,7 @@
         android:cursorVisible="false"
         android:hint="@string/other_exemple_question"
         android:inputType="text"
-        android:textSize="14sp"/>
+        android:textSize="@dimen/txt_small"/>
 
     <Button
         android:id="@+id/next_step_button"
